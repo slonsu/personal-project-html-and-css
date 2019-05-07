@@ -372,3 +372,91 @@ div:nth-child(3n) {
     margin-top: 16px;
     letter-spacing: 0.1em;
 }
+
+/* Component six */
+
+.six {
+    position: relative;
+    width: 100%;
+    height: 627px;
+    background-color: #222533;
+}
+
+.title6 {
+    color: white;
+    font-family: 'lato black';
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    padding-top: 140px;
+    margin-left: 818px;
+    margin-bottom: 62px;
+}
+
+.contentrow6 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+}
+
+.contentcolumn6 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 175px;
+}
+
+.innerrow6 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.checkbox6 {
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    background-color: #FFFFFF;
+    border: #707070 5px solid;
+    border-radius: 50%;
+    padding-right: 3px;
+    margin-bottom: 36px;
+}
+
+.chck5 {
+    color: #2C3E50;
+}
+
+.amount6 {
+    color: white;
+    font-family: 'lato';
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+    margin-bottom: 7px;
+}
+
+.blueline {
+    width: 40px;
+    height: 3px;
+    background-color: #21C2F8;
+    margin-bottom: 11px;
+}
+
+.subtext {
+    color: white;
+    font-family: 'lato';
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+
+.contentcolumn6:nth-child(2n) {
+    margin-right: 149px;
+}
+
+.contentcolumn6:nth-child(3n) {
+    margin-right: 144px;
+}
