@@ -15,10 +15,19 @@ a {
 }
 
 .component {
-    width: 100%;
+    width: 1920px;
 }
 
 /* first component */
+
+.one {
+    height: 100px;
+    background-color: #222533;
+    font-family: 'Lato';
+    color: white;
+    display: flex;
+    justify-content: center;
+}
 
 .pages {
     border-top: transparent 5px solid;
@@ -50,15 +59,6 @@ div:nth-child(3n) {
     color: #1ABC9C;
 }
 
-.one {
-    height: 100px;
-    background-color: #222533;
-    font-family: 'Lato';
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
 .titlething {
     font-size: 36px;
     margin-left: 14px;
@@ -69,9 +69,9 @@ div:nth-child(3n) {
 }
 
 .left-content-1 {
-    margin-left: 59px;
+    margin-left: 42px;
     margin-top: 28px;
-    margin-right: 85px;
+    margin-right: 84px;
     display: flex;
     flex-direction: row;
 }
@@ -85,8 +85,16 @@ div:nth-child(3n) {
 }
 
 .right-content-1 {
-    margin-top: 40px;
-    width: 76px;
+    width: 78px;
+}
+
+.img1 {
+    margin-right: 18px;
+    margin-top: 36px
+}
+
+.img2 {
+    padding-bottom: 4px;
 }
 
 .items-1 {
@@ -97,7 +105,7 @@ div:nth-child(3n) {
 
 .two {
     position: relative;
-    width: 100%;
+    width: 1920px;
     height: 980px;
     background: #1A1C27;
 }
@@ -119,7 +127,7 @@ div:nth-child(3n) {
 
 .arrow2a {
     margin-right: 0px !important;
-    margin-left: 502px;
+    margin-left: 505px;
 }
 
 .arrow2a:hover , .arrow2:hover {
@@ -133,10 +141,12 @@ div:nth-child(3n) {
     font-size: 90px;
     font-family: 'lato black';
     line-height: 60px;
+    letter-spacing: -0.005em;
 }
 
 .title2a {
     color: #03FBCA;
+    margin-left: -3px;
 }
 
 .text-2 {
@@ -186,7 +196,7 @@ div:nth-child(3n) {
 }
 
 .picturebox3 {
-    margin-left: 17px;
+    margin-right: 17px;
 }
 
 .title3 {
@@ -196,6 +206,7 @@ div:nth-child(3n) {
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 16px;
+    word-spacing: -2px;
 }
 
 .paragraph3 {
@@ -230,7 +241,7 @@ div:nth-child(3n) {
 
 .four {
     position: relative;
-    width: 100%;
+    width: 1920px;
     height: 360px;
 }
 
@@ -254,7 +265,6 @@ div:nth-child(3n) {
 
 .c4 {
     background: #E36968;
-    width: 623px;
 }
 
 .contentcolumn:nth-child(3n) , .paragraph4:nth-child(3n) {
@@ -268,6 +278,10 @@ div:nth-child(3n) {
     text-transform: uppercase;
     padding-top: 76px;
     padding-left: 80px;
+    letter-spacing: 0.09em;
+}
+
+.title4a {
     letter-spacing: 0.1em;
 }
 
@@ -326,6 +340,7 @@ div:nth-child(3n) {
     font-size: 30px;
     line-height: 40px;
     letter-spacing: 0.1em;
+    word-spacing: -3px;
     margin-bottom: 14px;
 }
 
@@ -377,7 +392,7 @@ div:nth-child(3n) {
 
 .six {
     position: relative;
-    width: 100%;
+    width: 1920px;
     height: 627px;
     background-color: #222533;
 }
@@ -388,7 +403,7 @@ div:nth-child(3n) {
     text-transform: uppercase;
     font-size: 30px;
     line-height: 40px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.083em;
     padding-top: 140px;
     margin-left: 818px;
     margin-bottom: 62px;
@@ -453,10 +468,14 @@ div:nth-child(3n) {
     letter-spacing: 0.05em;
 }
 
+.specialpush {
+    padding-left: 1px;
+}
+
 .contentcolumn6:nth-child(2n) {
     margin-right: 149px;
 }
 
 .contentcolumn6:nth-child(3n) {
-    margin-right: 144px;
+    margin-right: 142px;
 }
