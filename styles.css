@@ -126,8 +126,9 @@ div:nth-child(3n) {
 }
 
 .arrow2a {
+    position: absolute;
     margin-right: 0px !important;
-    margin-left: 505px;
+    right: 50px;
 }
 
 .arrow2a:hover , .arrow2:hover {
@@ -141,6 +142,7 @@ div:nth-child(3n) {
     font-size: 90px;
     font-family: 'lato black';
     line-height: 60px;
+    word-spacing: -3px;
 }
 
 .title2a {
