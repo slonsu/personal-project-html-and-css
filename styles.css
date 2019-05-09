@@ -9,13 +9,17 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 a {
     text-decoration: none;
     color: white;
 }
 
 .component {
-    width: 1920px;
+    width: 100%;
 }
 
 /* first component */
@@ -105,7 +109,7 @@ div:nth-child(3n) {
 
 .two {
     position: relative;
-    width: 1920px;
+    width: 100%;
     height: 980px;
     background: #1A1C27;
 }
@@ -113,7 +117,6 @@ div:nth-child(3n) {
 
 .arrow2 , .arrow2a {
     margin-top: 31px;
-    margin-left: 50px;
     padding-top: 2px;
     padding-right: 2px;
     color: white;
@@ -123,6 +126,11 @@ div:nth-child(3n) {
     width: 50px;
     height: 50px;
     border: 1px white solid;
+}
+
+.arrow2 {
+    position: absolute;
+    left: 50px;
 }
 
 .arrow2a {
@@ -142,7 +150,6 @@ div:nth-child(3n) {
     font-size: 90px;
     font-family: 'lato black';
     line-height: 60px;
-    word-spacing: -3px;
 }
 
 .title2a {
@@ -172,7 +179,7 @@ div:nth-child(3n) {
 }
 
 .conent-t {
-    margin-left: 501px;
+    margin: 0 auto;
 }
 
 .bottom-pointer {
@@ -191,8 +198,9 @@ div:nth-child(3n) {
 .contentbox3 {
     display: flex;
     flex-direction: row;
-    margin-top: 89px;
-    margin-left: 363px;
+    margin: 89px auto 0;
+    width: 63%;
+    padding-left: 8px;
 }
 
 .picturebox3 {
@@ -206,7 +214,6 @@ div:nth-child(3n) {
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 16px;
-    word-spacing: -2px;
 }
 
 .paragraph3 {
@@ -241,7 +248,7 @@ div:nth-child(3n) {
 
 .four {
     position: relative;
-    width: 1920px;
+    width: 100%;
     height: 360px;
 }
 
@@ -251,20 +258,22 @@ div:nth-child(3n) {
 }
 
 .contentcolumn {
-    width: 640px;
     height: 360px;
 }
 
 .a4 {
     background: #4E459A;
+    flex-grow: 1;
 }
 
 .b4 {
     background: #63D8FF;
+    flex-grow: 1;
 }
 
 .c4 {
     background: #E36968;
+    flex-grow: 1;
 }
 
 .contentcolumn:nth-child(3n) , .paragraph4:nth-child(3n) {
@@ -278,7 +287,7 @@ div:nth-child(3n) {
     text-transform: uppercase;
     padding-top: 76px;
     padding-left: 80px;
-    letter-spacing: 0.09em;
+    letter-spacing: 0.1em;
 }
 
 .title4a {
@@ -340,7 +349,6 @@ div:nth-child(3n) {
     font-size: 30px;
     line-height: 40px;
     letter-spacing: 0.1em;
-    word-spacing: -3px;
     margin-bottom: 14px;
 }
 
@@ -392,7 +400,7 @@ div:nth-child(3n) {
 
 .six {
     position: relative;
-    width: 1920px;
+    width: 100%;
     height: 627px;
     background-color: #222533;
 }
@@ -403,7 +411,7 @@ div:nth-child(3n) {
     text-transform: uppercase;
     font-size: 30px;
     line-height: 40px;
-    letter-spacing: 0.083em;
+    letter-spacing: 0.1em;
     padding-top: 140px;
     margin-left: 818px;
     margin-bottom: 62px;
